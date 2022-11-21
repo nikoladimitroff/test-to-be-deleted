@@ -7,7 +7,7 @@ const LANE_WIDTH = canvas.width/3;
 const LANE_COUNT = 3;
 const SCORE_SPEED = 1;
 const PlayerState = {
-    Running: "Running", // Also, states are continuous so their names should reflect that - you don't run or jump for a single frame, that's a continuous action over many frames
+    Flying: "Flying", // Also, states are continuous so their names should reflect that - you don't run or jump for a single frame, that's a continuous action over many frames
     Jumping: "Jumping",
     Ducking: "Ducking"
 };
